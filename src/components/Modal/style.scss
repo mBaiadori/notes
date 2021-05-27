@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 60vw;
+  height: auto;
+  max-height: 80vh;
+  .cliclable-btn {
+    cursor: pointer;
+    filter: brightness(0.7);
+    &:hover {
+      filter: brightness(1);
+    }
+  }
+}
